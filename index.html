@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home | Pedro França</title>
+<title>Home | Pedro</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!--header é a parte do cabeçalho do site, é o topo da página-->
 <header class="cabecalho-itens">
-<img class="cabecalho_imagem" src="logo_page.png" alt="Logo da
+<img class="cabecalho_imagem" src="images.png" alt="Logo da
 Página">
-<h1 class="titulo_site">Pedro F</h1>
+<h1 class="titulo_site">Pedro França</h1>
 <div class="sociais">
 <img class="sociais" src="whatsapp.png" alt="Logo do Whats da
 Escola">
@@ -21,82 +21,111 @@ Escola">
 Escola">
 </div>
 </header>
-
 <section class="banner1">
-<img class="escola.image" src="banner.png" alt="Banner da Escola">
+    <img class="escola-imagem" 
+         src="tecnologia.jpeg" 
+         alt="Banner da Escola">
 </section>
+
+<style>
+    /* === ESTILO DO BANNER MAIS ESTICADO === */
+    .banner1 {
+        width: 100%;
+        height: 500px;           /* Aumente ou diminua conforme quiser */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .escola-imagem {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;       /* Estica a imagem preenchendo todo o espaço */
+        object-position: center; /* Centraliza a imagem */
+        display: block;
+    }
+
+    /* Efeito opcional ao passar o mouse */
+    .banner1:hover .escola-imagem {
+        transform: scale(1.05);
+        transition: transform 0.6s ease;
+    }
+
+    /* === Estilo dos alunos (mantido e corrigido) === */
+    .estudante-imagem {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease;
+    }
+
+    .estudante-imagem:hover {
+        transform: scale(1.08);
+    }
+</style>
+
+  
+
+  
+</style>
 
 <section class="estudante">
-<h1 class="estudante_titulo">Lendas do Futebol</h1>
-<p> </p>
-<div class="estudantes_todos">
-<div class="estudante-div">
-<img class="estudante-imagem" src="estudante_menino_1.png" alt="Foto da
-turma do 1CDS do ano de 2026">
-<h3 class="estudante-nome">Jogador 1</h3>
-<a href="https://cursos.alura.com.br/dashboard">
-<p> </p>
-<img class="estudante-icone" src="site_school.png" alt="Link do Site da
-escola"></a>
-<img class="estudante-icone" src="instagram.png" alt="Link do
-Instagram">
-<img class="estudante-icone" src="facebook.png" alt="Link do Facebook">
-</div>
+  <h1 class="estudante_titulo">Meus Amigos</h1>
+  
+  <div class="estudantes_todos">
 
-<div class="estudante-div">
-<img class="estudante-imagem" src="estudante_menino_1.png" alt="Foto da
-turma do 1CDS do ano de 2026">
-<h3 class="estudante-nome">Jogador 2</h3>
-<a href="https://cursos.alura.com.br/dashboard">
-<p> </p>
-<img class="estudante-icone" src="site_school.png" alt="Link do
-Site da escola"></a>
-<img class="estudante-icone" src="instagram.png" alt="Link do
-Instagram">
-<img class="estudante-icone" src="facebook.png" alt="Link do
-Facebook">
-</div>
-</div>
+    <!-- Paulo -->
+    <div class="estudante-div">
+      <img class="estudante-imagem" 
+           src="WhatsApp Image 2026-06-18 at 09.38.49.jpeg" 
+           alt="Foto de Paulo - Turma 1CDS 2026">
+      <h3 class="estudante-nome"></h3>
+      <a href="https://cursos.alura.com.br/dashboard">
+        <img class="estudante-icone" src="site_school.png" alt="">
+      </a>
+      <img class="estudante-icone" src="instagram.png" alt="Instagram">
+    </div>
+
+    <!-- França -->
+    <div class="estudante-div">
+      <img class="estudante-imagem" 
+           src="WhatsApp Image 2026-06-18 at 09.38.02.jpeg" 
+           alt="Foto de França - Turma 1CDS 2026">
+      <h3 class="estudante-nome"></h3>
+      <a href="https://cursos.alura.com.br/dashboard">
+        <img class="estudante-icone" src="IMAGEM" alt="">
+      </a>
+      <img class="estudante-icone" src="instagram.png" alt="Instagram">
+    </div>
+
+  </div>
 </section>
 
-
+<!-- Seção das meninas (exemplo) -->
 <section class="estudante">
-<div class="estudantes_todos">
-<div class="estudante-div">
-<img class="estudante-imagem" src="estudante_menina_1.png" alt="Foto da
-turma do 1CDS do ano de 2023">
-<h3 class="estudante-nome">Jogador 3</h3>
-<a href="https://cursos.alura.com.br/dashboard">
-<p> </p>
-<img class="estudante-icone" src="site_school.png" alt="Link do Site da
-escola"></a>
-<img class="estudante-icone" src="instagram.png" alt="Link do Instagram">
-<img class="estudante-icone" src="facebook.png" alt="Link do Facebook">
-</div>
-<div class="estudante-div">
-<img class="estudante-imagem" src="estudante_menina_1.png" alt="Foto da turma do
-1CDS do ano de 2023">
-<h3 class="estudante-nome">Jogador 4</h3>
-<a href="https://cursos.alura.com.br/dashboard">
-<p> </p>
-<img class="estudante-icone" src="site_school.png" alt="Link do Site
-da escola"></a>
-<img class="estudante-icone" src="instagram.png" alt="Link do
-Instagram">
-v>
-</div>
-</div>
+  <div class="estudantes_todos">
+    <div class="estudante-div">
+      <img class="estudante-imagem" 
+           src="unnamed.jpg" 
+           alt="unnamed.jpg">
+      <h3 class="estudante-nome"></h3>
+      <a href="https://cursos.alura.com.br/dashboard">
+        <img class="estudante-icone" src="site_school.png" alt="">
+      </a>
+      <img class="estudante-icone" src="instagram.png" alt="Instagram">
+    </div>
+
+    <div class="estudante-div">
+      <img class="estudante-imagem" 
+           src="thumb2-neymar-jr-santos-fc-brazilian-football-player-white-stone-background-neymar.jpg" 
+           alt="Foto da Aluna 6">
+      <h3 class="estudante-nome"></h3>
+      <a href="https://cursos.alura.com.br/dashboard">
+        <img class="estudante-icone" src="site_school.png" alt="">
+      </a>
+      <img class="estudante-icone" src="instagram.png" alt="Instagram">
+    </div>
+  </div>
 </section>
-
-<footer class="escola">
-<img class="logo_rodape" src="logo_nossa_escola.png" alt="Logo da Escola">
-<h2 class="escola-título">Mais informações entre em contato<a class="link"
-
-href="https://wa.me/5541999999999"> 41 9987037227 </a></h2>
-<p></p>
-<p>©2026 | Feito por Pedro | Todos os Direitos Reservados.
-Política de Privacidade | Proteção de dados </p>
-<p> </p>
-</footer>
-</body>
-</html>
