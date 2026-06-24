@@ -23,13 +23,14 @@ header {
     justify-content: center;
 }
 
-.cabecalho-imagen{
-    width: 40px;
-    height: 40px
-    border-radius 50%;
-    object-fit: cover;
-    border: 3px solid white;
+.cabecalh_imagem {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
 }
+
 
 .titulo_site {
     padding: 50px;
