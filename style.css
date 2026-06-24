@@ -24,8 +24,8 @@ header {
 }
 
 cabecalho_imagem{
-    width: 80px;
-    height: 80px;
+    width: 40px;x;
+    height: 40px
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid white;
