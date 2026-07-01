@@ -107,3 +107,16 @@ header {
     text-decoration: none;
 }
 
+.mapa-local {
+  text-align: center;
+  margin: 25px auto;
+  padding: 15px;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+  max-width: 820px;
+}
+.mapa-local h3 {
+  color: #1a365d;
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
