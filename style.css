@@ -146,3 +146,30 @@ header {
     height: 200px;          /* Diminui um pouco a altura em celulares menores */
   }
 }
+/* Estilo da caixa que guarda todo o bloco do vídeo */
+.container-video {
+  max-width: 800px;         /* Define a largura máxima da caixa */
+  margin: 20px auto;        /* Centraliza a caixa na tela na horizontal */
+  padding: 20px;            /* Espaço interno ao redor dos elementos */
+  background-color: #f4f4f4; /* Cor de fundo suave (cinza claro) */
+  border-radius: 10px;      /* Bordas arredondadas na caixa */
+  text-align: center;       /* Centraliza o texto e o vídeo dentro da caixa */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para dar destaque */
+}
+
+/* Estilo do título do vídeo */
+.titulo-video {
+  font-family: Arial, sans-serif;
+  color: #333333;           /* Cor do texto (cinza escuro) */
+  font-size: 24px;          /* Tamanho da fonte */
+  margin-bottom: 15px;      /* Espaço entre o título e o vídeo abaixo */
+}
+
+/* Estilo do player de vídeo do YouTube */
+.container-video iframe {
+  width: 100%;              /* O vídeo ocupa 100% da largura da caixa */
+  max-width: 560px;         /* Limita a largura para não ficar gigante */
+  height: 315px;            /* Altura padrão do vídeo */
+  border: none;             /* Remove a borda padrão do iframe */
+  border-radius: 8px;       /* Arredonda os cantos do vídeo */
+}
