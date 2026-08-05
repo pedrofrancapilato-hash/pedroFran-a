@@ -157,3 +157,20 @@ header {
     background-color: #4B5694; /* Substitua pela cor desejada (Hexadecimal, RGB ou nome da cor) */
 }
 
+/* Estilização do bloco inteiro que envolve o vídeo */
+.video-container {
+    width: 100%;
+    max-width: 750px;       /* Tamanho máximo ideal para o player no PC */
+    margin: 0 auto;         /* Centraliza o bloco horizontalmente na página */
+    padding: 20px;          /* Margem interna de segurança para telas de celular */
+    box-sizing: border-box;
+    text-align: center;     /* Centraliza o título do vídeo */
+}
+
+/* Tornando o player do YouTube 100% responsivo */
+.video-container iframe {
+    width: 100%;            /* Ocupa toda a largura disponível do container */
+    aspect-ratio: 16 / 9;   /* Mantém a proporção padrão de vídeo sem distorcer */
+    height: auto;           /* Ajusta a altura automaticamente baseada na proporção */
+    border-radius: 8px;     /* Opcional: deixa as bordas do vídeo arredondadas */
+}
