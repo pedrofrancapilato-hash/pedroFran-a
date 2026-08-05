@@ -130,3 +130,25 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+.mapa-local{
+    background:#4B5694;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.mapa-local h3{
+    color:white;
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.mapa-local iframe{
+    display:block;
+    margin:0 auto;
+    width:80%;
+    max-width:800px;
+    height:450px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
