@@ -151,4 +151,8 @@ header {
     height:450px;
     border-radius:15px;
     box-shadow:0 5px 15px rgba(0,0,0,.3);
+}/* Se o container do vídeo for uma tag html como <section> ou <div id="video"> */
+.container-video, section {
+    background-color: #e0e0e0; /* Substitua pela cor desejada (Hexadecimal, RGB ou nome da cor) */
 }
+
